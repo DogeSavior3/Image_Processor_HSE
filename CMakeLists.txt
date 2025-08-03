@@ -12,7 +12,5 @@ include(cmake/TestSolution.cmake)
 
 find_package(Catch REQUIRED)
 
-include_directories(util)
-
-add_subdirectory(image_processor)
+add_subdirectory(ImageProcessor)
 
